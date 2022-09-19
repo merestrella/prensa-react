@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background: #fff;
+  margin: 0;
+  --rojoprensa: #f44336;
+  --mujer: #8bc34a;
+  --internacionales: #880e4f;
+  --sindicales: #ff9800;
+  --politicas: #e64a19;
+}

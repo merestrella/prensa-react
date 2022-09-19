@@ -1,0 +1,58 @@
+.tarjetaNotaCuadradaConFoto {
+  cursor: pointer;
+}
+
+.volanta {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #333;
+  padding: 1px 5px;
+}
+
+.volanta span {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.data {
+  padding: 5px 10px;
+}
+
+.data h3 {
+  font-size: 25px;
+  font-weight: 900;
+  margin: 10px 0 10px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.data p {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.data a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contenedorImagen {
+  display: flex;
+  height: 170px;
+}
+.fotoNotaCuadradaConFoto {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid;
+  width: 100%;
+}
+
+.fotoNotaCuadradaConFoto img {
+  width: 100%;
+  height: auto;
+}

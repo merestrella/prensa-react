@@ -1,0 +1,7 @@
+.notasInternacionales {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  margin-top: 20px;
+  gap: 15px;
+}

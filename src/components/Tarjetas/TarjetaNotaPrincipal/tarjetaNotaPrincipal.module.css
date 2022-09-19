@@ -1,0 +1,57 @@
+.tarjetaNotaPrincipal {
+  grid-row: 1 / span 2;
+  cursor: pointer;
+  position: relative;
+}
+
+.botonBorrar {
+  position: absolute;
+  right: 5px;
+  margin-top: 5px;
+}
+
+.volanta {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #333;
+  padding: 1px 5px;
+}
+
+.volanta span {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.data {
+  padding: 5px 10px;
+}
+
+.data h3 {
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 35px;
+  font-family: "Roboto", sans-serif;
+}
+
+.data p {
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.fotoNotaPrincipal {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid;
+}
+
+.fotoNotaPrincipal img {
+  width: 100%;
+  height: auto;
+}

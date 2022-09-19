@@ -1,0 +1,47 @@
+.containerNav {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.listaMenu {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+ul li:after {
+  display: block;
+  content: "";
+  width: 1px;
+  background-color: red;
+  margin: 0 10px;
+}
+
+li a {
+  align-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+li:hover a {
+  text-decoration: underline;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
